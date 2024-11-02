@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReadyAid</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        /* Basic resets and styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            text-align: center;
+            color: #7f8c8d;
+        }
+
+        button {
+            display: block;
+            margin: 0 auto;
+            padding: 10px 20px;
+            font-size: 1rem;
+            color: #fff;
+            background-color: #2980b9;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #1c598a;
+        }
+
+        /* Additional styling for responsiveness */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+
+            button {
+                font-size: 0.9rem;
+                padding: 8px 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Welcome to ReadyAid!</h1>
+        <p id="para">Hello, World!</p>
+        <button onclick="redirect()">Calendar</button>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.botpress.cloud/webchat/v2.2/inject.js"></script>
+    <script src="https://files.bpcontent.cloud/2024/10/19/07/20241019075620-UDI6JYKE.js"></script>
+</body>
+</html>
